@@ -361,7 +361,7 @@
                 <?php
                 $sql_name = "root";
                 $sql_pass = "";
-                $db_link = mysqli_connect("localhost:3306",$sql_name, $sql_pass);
+                $db_link = mysqli_connect("localhost:3307",$sql_name, $sql_pass);
                 mysqli_select_db($db_link,"games4less");
                 //query for selecting data
                 $genra_query = ($genraOption == "All") ? null : "AND `genre` = '$genraOption'";

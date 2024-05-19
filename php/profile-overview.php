@@ -21,7 +21,7 @@
         if (!isset($_SESSION["user_id"])){
             echo "<script>window.location.href = 'SignIn.php';</script>";
         }
-        $servername = "localhost:3306";
+        $servername = "localhost:3307";
         $username = "root";
         $password = "";
         $dbname = "games4less";

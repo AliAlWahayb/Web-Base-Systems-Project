@@ -15,7 +15,7 @@ if (isset($_POST['add_to_cart'])) {
 
     $sql_name = "root";
     $sql_pass = "";
-    $db_link = mysqli_connect("localhost:3306",$sql_name, $sql_pass);
+    $db_link = mysqli_connect("localhost:3307",$sql_name, $sql_pass);
     mysqli_select_db($db_link,"games4less");
     $select_query = "SELECT order_id FROM `order` WHERE user_id = $user_id AND order_status = 'Waiting'";
     $result_query = mysqli_query($db_link, $select_query);

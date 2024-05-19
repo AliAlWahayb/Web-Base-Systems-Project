@@ -59,7 +59,7 @@
     $username = "root"; // Change this to your database username
     $password = "";
     $dbname = "games4less"; // Change this to your database name
-    $db_link = mysqli_connect("localhost:3306",$username, $password);
+    $db_link = mysqli_connect("localhost:3307",$username, $password);
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
 

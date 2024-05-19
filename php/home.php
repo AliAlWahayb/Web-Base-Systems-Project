@@ -44,7 +44,7 @@
                 <!-- PHP code for fetching and displaying bestsellers -->
                 <?php
                 // Database connection parameters
-                $servername = "localhost";
+                $servername = "localhost:3307";
                 $username = "root";
                 $password = "";
                 $dbname = "games4less";

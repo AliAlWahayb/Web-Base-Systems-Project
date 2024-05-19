@@ -27,7 +27,7 @@
 
                 $sql_name = "root";
                 $sql_pass = "";
-                $db_link = mysqli_connect("localhost:3306",$sql_name, $sql_pass);
+                $db_link = mysqli_connect("localhost:3307",$sql_name, $sql_pass);
                 mysqli_select_db($db_link,"games4less");
                 $select_query = "SELECT * FROM product WHERE product_id = $product_id";
                 $result_query = mysqli_query($db_link, $select_query);
